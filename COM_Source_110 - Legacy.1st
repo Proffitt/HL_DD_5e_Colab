@@ -9,7 +9,7 @@
     id="p5CLegacy"
     name="Legacy Archive"
     selectable="no"
-    parent="p5ePack"
+    parent="pComPacks"
     sortorder="55"
     description="Legacy archive of materials no longer supported by community.">
     </source>
