@@ -9,20 +9,13 @@
     <!--
     May 29, 2018 - dungeonguru/Larry Fugate
     -Added Mordenkainen's source
+	August 1, 2018 - dungeonguru/Larry
+	- Added new UA current source, changed parent of old UA to Legacy source.
   -->
 
   <!-- ============================================== -->
   <!-- CHILD SOURCES                                  -->
   <!-- ============================================== -->
-  <source
-    id="p5eUneArc"
-    name="Unearthed Arcana"
-    selectable="no"
-    parent="p5eBooks"
-    sortorder="20"
-    description="Unearthed Arcana content. Use is allowed for gaming groups only.">
-  </source>
-
   <source
     id="5eSCAGCP"
     name="Sword Coast Adventurer's Guide"
@@ -31,7 +24,6 @@
     sortorder="10"
     description="Sword Coast Adventures Guide sourcebook. Use is allowed for gaming groups only.">
   </source>
-  
     <source
     id="5eVGtMCP"
     name="Volo's Guide to Monsters"
@@ -40,16 +32,14 @@
     sortorder="10"
     description="Volo's Guide to Monsters sourcebook. Use is allowed for gaming groups only.">
   </source>
-  
-      <source
+  <source
     id="5eXGTECP"
     name="Xanathar's Guide To Everything"
     selectable="yes"
     parent="p5eBooks"
     sortorder="10"
-    description="Xanathat's Guide to Everything sourcebook. Use is allowed for gaming groups only.">
+    description="Xanathar's Guide to Everything sourcebook. Use is allowed for gaming groups only.">
   </source>
-  
   <source
     id="5eMTOFCP"
     name="Mordenkainen's Tome of Foes"
@@ -58,5 +48,12 @@
     sortorder="15"
     description="Mordenkainen's Tome of Foes sourcebook. Use is allowed for gaming groups only.">
   </source>
-  
+  <source
+    id="p5eUACurr"
+    name="5e Unearthed Arcana"
+    selectable="no"
+    parent="p5ePack"
+    sortorder="25"
+    description="Currently Supported Unearthed Arcana content. Use is allowed for gaming groups only.">
+  </source>
 </document>

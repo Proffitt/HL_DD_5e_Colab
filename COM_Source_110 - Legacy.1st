@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document signature="Hero Lab Structure">
+  <loadonce key="COM_Source_110 - Legacy.1st"/>
+  <!--
+	August 1, 2018 - dungeonguru (Larry Fugate)
+	- Created New to move older and unsupported materials into.
+  -->
+  <source
+    id="p5CLegacy"
+    name="Legacy Archive"
+    selectable="no"
+    parent="p5ePack"
+    sortorder="55"
+    description="Legacy archive of materials no longer supported by community.">
+    </source>
+  <source
+    id="p5eUneArc"
+    name="Unearthed Arcana"
+    selectable="no"
+    parent="p5CLegacy"
+    sortorder="20"
+    description="Unsupported Legacy Unearthed Arcana content. Use is allowed for gaming groups only.">
+  </source>
+	<!-- Unearthed Arcana -->
+	<!-- The subarticles are found in COM_Source_110 Unearthed Arcana.1st -->
+	
+	
+    <!-- EN Publishing -->
+  <source
+    id="pfHBC"
+    name="Homebrew Options"
+    selectable="no"
+    parent="p5CLegacy"
+    sortorder="10"
+    description="A selection of Homebrew options.">
+    </source>
+  <source
+    id="pENPublish"
+    name="EN Publishing"
+    selectable="no"
+    parent="p5CLegacy"
+    sortorder="20"
+    description="EN Publishing sourcebooks. Use is allowed for gaming groups only.">
+    </source>
+	
+	
+	  <!-- ============================================== -->
+  <!-- CHILD SOURCES                                  -->
+  <!-- ============================================== -->
+ 
+
+  <!-- Misc 3PP Books sorted directly under the Homebrew Parent -->
+	<source
+    id="5eHBAchCP"
+    name="Alchemist Class (Non-Magical) - Beta"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A homebrew Alchemist (Non-Magical) class option. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBAlcCP"
+    name="Alchemist Class - Beta"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A homebrew Alchemist class option. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHomBreCP"
+    name="Various Homebrew Options"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A selection of Homebrew options popular on DMsGuild.com. Use is allowed for gaming groups only.">
+    </source>
+    <source
+    id="5eHBClExCP"
+    name="Cleric - Exorcism Domain"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A homebrew Exorcism Domain for the Cleric. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eGobPCCP"
+    name="Goblin Player Race - Beta"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Goblin race. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="p5ePFCCP"
+    name="Kasatha Player Race"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="Kasatha Player Race. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBMousCP"
+    name="Mousefolk Player Race"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Mousefolk race. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBPsiHCP"
+    name="Psionic Handbook"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Mystic class and psionic options for Roques and Fighters. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBSharCP"
+    name="Shardmind Player Race"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Shardmind race. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBUrsiCP"
+    name="Ursine Player Race"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Ursine race. Use is allowed for gaming groups only.">
+    </source>
+	<source
+    id="5eHBElapCP"
+    name="Elapidae Player Race"
+    selectable="yes"
+    parent="pfHBC"
+    sortorder="10"
+    description="A playable Elapidae race. Use is allowed for gaming groups only.">
+    </source>
+  <source id="5eHBMnTCP"
+    name="Monk - Way of the Four Elements Remastered"
+	selectable="yes"
+	parent="pfHBC"
+	sortorder="10"
+	description="A post-Elemental Evil update to the Monk. Use is allowed for gaming groups only.">
+	</source>
+	  <!-- EN Publishing Books -->
+  <source
+    id="5eEN5IDER"
+    name="EN - EN5ider"
+    selectable="no"
+    parent="pENPublish"
+    sortorder="10"
+    description="EN Publishing EN5ider books. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_08"
+    name="En5ider 07 - Nature's Remedy - Beta"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Nature's Remedy's. Use is allowed for gaming groups only.">
+    </source>
+ 
+  <source
+    id="EN5_09"
+    name="En5ider 09 - Circles of Power"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Circles of Power. Use is allowed for gaming groups only.">
+    </source>
+	
+	  <source
+    id="EN5_14"
+    name="En5ider 14 - Strands of Life"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Strands of Life. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_16"
+    name="En5ider 16 - King and Country"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="King and Country. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_18"
+    name="En5ider 18 - King and Country II"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="King and Country II. Use is allowed for gaming groups only.">
+    </source>
+	
+	  <source
+    id="EN5_21"
+    name="En5ider 21 - Forgotten Lore - Arcane"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Forgotten Lore - Arcane. Use is allowed for gaming groups only.">
+    </source>
+	
+		  <source
+    id="EN5_22"
+    name="En5ider 22 - Art of Peace"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Art of Peace. Use is allowed for gaming groups only.">
+    </source>
+	
+			  <source
+    id="EN5_25"
+    name="En5ider 25 - Paladins Dark Vows"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Paladins Dark Vows. Use is allowed for gaming groups only.">
+    </source>
+	
+				  <source
+    id="EN5_31"
+    name="En5ider 31 - Forgotten Lore - Divine"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Forgotten Lore - Divine. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_34"
+    name="En5ider 34 - Chessmasters and Commanders - Beta"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Chessmasters and Commanders. Use is allowed for gaming groups only.">
+    </source>
+
+	  <source
+    id="EN5_35"
+    name="En5ider 35 - Masters of the Wild - Beta"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Masters of the Wild. Use is allowed for gaming groups only.">
+    </source>
+	
+					  <source
+    id="EN5_39"
+    name="En5ider 39 - I Aint Afraid of No Ghosts"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="I Aint Afraid of No Ghosts. Use is allowed for gaming groups only.">
+    </source>
+	
+						  <source
+    id="EN5_42"
+    name="En5ider 42 - Heroes of the Night"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Heroes of the Night. Use is allowed for gaming groups only.">
+    </source>
+	
+							  <source
+    id="EN5_44"
+    name="En5ider 44 - Treasures Dark and Terrible"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Treasures Dark and Terrible. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_57"
+    name="En5ider 57 - Scientific Sorcerery"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Scientific Sorcerery. Use is allowed for gaming groups only.">
+    </source>
+
+  <source
+    id="EN5_58"
+    name="En5ider 58 - It's Never Over"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="It's Never Over: Plot Seeds for the End of the World. Use is allowed for gaming groups only.">
+    </source>
+	
+	  <source
+    id="EN5_60"
+    name="En5ider 60 - Sinister Spellbooks"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Sinister Spellbooks. Use is allowed for gaming groups only.">
+    </source>
+	
+		  <source
+    id="EN5_61"
+    name="En5ider 61 - Speaking with Fists"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Speaking with Fists. Use is allowed for gaming groups only.">
+    </source>
+	
+			  <source
+    id="EN5_63"
+    name="En5ider 63 - Fell Grafts_Alpha"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Fell Grafts_Alpha. Use is allowed for gaming groups only.">
+    </source>
+	
+				  <source
+    id="EN5_64"
+    name="En5ider 64 - Priests Misfortune"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Priests Misfortune. Use is allowed for gaming groups only.">
+    </source>
+	
+					  <source
+    id="EN5_65"
+    name="En5ider 65 - Priests Elemental Power"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Priests Elemental Power. Use is allowed for gaming groups only.">
+    </source>
+	
+						  <source
+    id="EN5_70"
+    name="En5ider 70 - Children of Earth"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Children of Earth. Use is allowed for gaming groups only.">
+    </source>
+	
+							  <source
+    id="EN5_74"
+    name="En5ider 74 - Celestial Grafts"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Celestial Grafts. Use is allowed for gaming groups only.">
+    </source>
+
+
+</document>

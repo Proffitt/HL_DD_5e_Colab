@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document signature="Hero Lab Structure">
+  <loadonce key="COM_Source_110 - UA Current.1st"/>
+  <!--
+    -Created New
+	July 24, 2018 - dungeonguru (Larry Fugate)
+	- When the 1st of the month occurs, cut/paste the source below and put into the COM_Source_110 - Unearthed Arcana.1st file.
+  -->
+  <!-- Source to be retired July 2019 -->
+  <source
+    id="5eUAGiaSou"
+    name="Giant Soul Sorcerer (June 2018)"
+    selectable="yes"
+    parent="p5eUACurr"
+    sortorder="10"
+    description="June 2018 Unearthed Arcana article on Giant Soul Sorcerer. Use is allowed for gaming groups only.">
+    </source>
+  <!-- Source to be retired June 2019 -->	
+  <source
+    id="5eUACenMin"
+    name="Centaurs and Minotaurs (May 2018)"
+    selectable="yes"
+    parent="p5eUACurr"
+    sortorder="10"
+    description="June 2018 Unearthed Arcana article on Centaurs and Minotaurs. Use is allowed for gaming groups only.">
+    </source>
+  <!-- Source to be retired May 2019 -->
+  <source
+    id="5eUAOrdDom"
+    name="Order Domain (April 2018)"
+    selectable="yes"
+    parent="p5eUACurr"
+    sortorder="10"
+    description="April 2018 Unearthed Arcana article on the Order domain. Use is allowed for gaming groups only.">
+    </source>
+  <!-- Source to be retired February 2019 -->
+  <source
+    id="5eUAThrSub"
+    name="Three Subclasses (January 2018)"
+    selectable="yes"
+    parent="p5eUACurr"
+    sortorder="10"
+    description="January 2018 Unearthed Arcana article on the Circle of Spores, Brute and School of Invention. Use is allowed for gaming groups only.">
+    </source>
+ </document>
